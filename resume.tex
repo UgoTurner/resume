@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Ugo Turner
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[scale=0.80]{geometry} % Reduce document margins
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}    
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Ugo} % Your first name
+\familyname{TURNER} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Développeur backend PHP}
+% \address{123 Broadway}{City, State 12345}
+% \mobile{}
+\email{turner.ugo@gmail.com}
+\homepage{ugo-turner.com}{ugo-turner.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[70pt][0pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\bigbreak
+
+\cventry{2015--2019}{Développeur web}{\textsc{Hellocasa}}{Paris}{}{
+  Hellocasa est une entreprise française, spécialisée dans la vente et la gestion de travaux de bricolage, dépannage et rénovation.
+  Arrivé dès le début du projet, mon rôle a été de concevoir des fonctionnalités du site ainsi que des outils en interne.
+\newline{}
+\begin{itemize}
+\item Symfony 3.x/4.x, Doctrine 2, API-Platform
+\item React.js/Redux
+\item Cordova + Angular.js
+\item PhpUnit, Behat
+\item Docker, RabbitMQ, Gitlab, Algolia, Kibana, Sonarqube
+\end{itemize}}
+\bigbreak
+
+\cventry{2014}{Développeur web (stage 7 mois)}{\textsc{Bewoopi}}{Paris}{}{
+  Bewoopi est une agence spécialisée dans la création d'applications et le marketing mobile.
+  Dans le cadre de son pôle R\&D, j'ai travaillé sur un prototype d'application capable de collecter des informations via les API de plusieurs réseaux sociaux. 
+\newline{}
+\begin{itemize}
+\item Python
+\item PHP
+\item Angular.js
+\item BDD en graph (Neo4j)
+\end{itemize}}
+\bigbreak
+
+\cventry{2012}{Chargé de projet e-commerce (stage 3 mois)}{\textsc{Tube2Com}}{Vannes}{}{
+  Agence de webmarketing et de SEO/SEA.
+  Dans le cadre de ma licence professionnelle, j'ai effectué mon stage dans cette agence et avais pour mission d'entretenir, référencé et animé la communauté d'un site e-commerce de puériculture. 
+\newline{}
+\begin{itemize}
+\item Gestion d'un site e-commerce
+\item SEO
+\item Community management (newsletters, rédaction d'articles de blog et animation sur Twitter/Facebook)
+\end{itemize}}
+\bigbreak
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+\bigbreak
+
+\cventry{2012--2015}{Master ingénierie de l’Internet}{Université}{Caen}{}{PHP, Java (dont J2EE), gestion de projet, systèmes et réseaux \bigbreak}
+\cventry{2011--2012}{Licence professionnelle e-commerce}{IUT}{Vannes}{}{Gestion de projet, webmarketing, SEO, PHP \bigbreak}
+\cventry{2009--2011}{DUT techniques de commercialisation}{IUT}{Angers}{}{Marketing, stratégie d'entreprise, droit du e-commerce \bigbreak}
+
+\end{document}
